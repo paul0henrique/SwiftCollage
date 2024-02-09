@@ -6,9 +6,7 @@ struct MyApp: App {
     var body: some Scene {
         WindowGroup {
             TabView {
-                Gabi()
-                Template()
-                Template2()
+                Paulo()
             }
             .tabViewStyle(.page(indexDisplayMode: .never))
         }

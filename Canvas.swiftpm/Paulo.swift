@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct Template: View {
+struct Paulo: View {
     var body: some View {
         ScrollView {
             HStack(alignment: .top) {
@@ -12,141 +12,142 @@ struct Template: View {
                         Text("MIM")
                             .font(.system(size: 50, design: .rounded))
                             .bold()
-                            .foregroundStyle(.gray) // Linha onde a cor do texto pode ser modificada
+                            .foregroundStyle(.white) // Linha onde a cor do texto pode ser modificada
                     }
                     .padding(.vertical)
                     .frame(maxWidth: .infinity)
-                    .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                    .background(.orange.opacity(0.7)) // Linha onde a cor do card pode ser modificada
                     .clipShape(.rect(cornerRadius: 11))
                     
                     HStack {
                         Image(systemName: "building.columns.circle.fill")
-                            .foregroundStyle(.white, .gray) // Linha onde a cor do ícone pode ser modificada
+                            .foregroundStyle(.white, .black) // Linha onde a cor do ícone pode ser modificada
                             .font(.system(size: 70))
                         VStack(alignment: .leading) {
-                            Text("Meu Curso")
+                            Text("Meus Cursos")
                                 .font(.title)
-                            Text("<insira aqui>") // Modificar essa String
+                            Text("EngComp/Letras") // Modificar essa String
                                 .font(.largeTitle)
                                 .bold()
-                                .foregroundStyle(.gray) // Linha onde a cor do texto pode ser modificada
+                                .foregroundStyle(.white) // Linha onde a cor do texto pode ser modificada
                         }
+                        
                     }
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                    .background(.green.opacity(0.7)) // Linha onde a cor do card pode ser modificada
                     .clipShape(.rect(cornerRadius: 11))
                     
                     HStack {
-                        Image(systemName: "house.circle.fill")
-                            .foregroundStyle(.white, .gray) // Linha onde a cor do ícone pode ser modificada
+                        Image(systemName: "popcorn.circle.fill")
+                            .foregroundStyle(.white, .black) // Linha onde a cor do ícone pode ser modificada
                             .font(.system(size: 70))
                         VStack(alignment: .leading) {
                             Text("Lugar predileto")
                                 .font(.title)
-                            Text("<insira aqui>") // Modificar essa String
+                            Text("Cinema") // Modificar essa String
                                 .font(.largeTitle)
                                 .bold()
-                                .foregroundStyle(.gray) // Linha onde a cor do texto pode ser modificada
+                                .foregroundStyle(.white) // Linha onde a cor do texto pode ser modificada
                         }
                     }
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                    .background(.blue.opacity(0.7)) // Linha onde a cor do card pode ser modificada
                     .clipShape(.rect(cornerRadius: 11))
                     
                     HStack {
                         Image(systemName: "music.mic.circle.fill")
-                            .foregroundStyle(.white, .gray) // Linha onde a cor do ícone pode ser modificada
+                            .foregroundStyle(.white, .black) // Linha onde a cor do ícone pode ser modificada
                             .font(.system(size: 70))
                         VStack(alignment: .leading) {
                             Text("Banda predileta")
                                 .font(.title)
                             
-                            Text("<insira aqui>") // Modificar essa String
+                            Text("Imagine Dragons") // Modificar essa String
                                 .font(.largeTitle)
                                 .bold()
-                                .foregroundStyle(.gray) // Linha onde a cor do texto pode ser modificada
+                                .foregroundStyle(.white) // Linha onde a cor do texto pode ser modificada
                         }
                     }
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                    .background(.indigo.opacity(0.6)) // Linha onde a cor do card pode ser modificada
                     .clipShape(.rect(cornerRadius: 11))
                     
                     HStack {
                         Image(systemName: "person.crop.circle.badge.exclamationmark.fill")
-                            .foregroundStyle(.black, .gray) // Linha onde a cor do ícone pode ser modificada
+                            .foregroundStyle(.black, .black) // Linha onde a cor do ícone pode ser modificada
                             .font(.system(size: 70))
                         VStack(alignment: .leading) {
                             Text("Um defeito")
                                 .font(.title)
                             
-                            Text("<insira aqui>") // Modificar essa String
+                            Text("Tempo 🤯") // Modificar essa String
                                 .font(.largeTitle)
                                 .bold()
-                                .foregroundStyle(.gray) // Linha onde a cor do texto pode ser modificada
+                                .foregroundStyle(.white) // Linha onde a cor do texto pode ser modificada
                         }
                     }
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                    .background(.red.opacity(0.7)) // Linha onde a cor do card pode ser modificada
                     .clipShape(.rect(cornerRadius: 11))
                     
                     VStack {
                         Image(systemName: "heart.circle.fill")
-                            .foregroundStyle(.white, .gray) // Linha onde a cor do ícone pode ser modificada
+                            .foregroundStyle(.white, .black) // Linha onde a cor do ícone pode ser modificada
                             .font(.system(size: 70))
                         VStack {
                             Text("Um sonho pessoal")
                                 .font(.title)
                             
-                            Text("<insira aqui>") // Modificar essa String
+                            Text("Viajar para o exterior ✈") // Modificar essa String
                                 .font(.system(size: 22, design: .rounded))
                                 .bold()
-                                .foregroundStyle(.gray) // Linha onde a cor do texto pode ser modificada
+                                .foregroundStyle(.white) // Linha onde a cor do texto pode ser modificada
                         }
                     }
                     .padding()
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                    .background(.cyan.opacity(0.7)) // Linha onde a cor do card pode ser modificada
                     .clipShape(.rect(cornerRadius: 11))
                     
                     VStack {
                         Image(systemName: "suitcase.fill")
-                            .foregroundStyle(.gray) // Linha onde a cor do ícone pode ser modificada
+                            .foregroundStyle(.black) // Linha onde a cor do ícone pode ser modificada
                             .font(.system(size: 60))
                         VStack {
                             Text("Realização profissional")
                                 .font(.title)
                             
-                            Text("<insira aqui>") // Modificar essa String
+                            Text("Professor do IFCE 👨🏼‍🏫") // Modificar essa String
                                 .font(.system(size: 22, design: .rounded))
                                 .bold()
-                                .foregroundStyle(.gray) // Linha onde a cor do texto pode ser modificada
+                                .foregroundStyle(.white) // Linha onde a cor do texto pode ser modificada
                         }
                     }
                     .padding()
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                    .background(.brown.opacity(0.5)) // Linha onde a cor do card pode ser modificada
                     .clipShape(.rect(cornerRadius: 11))
                     
                     VStack {
                         Image(systemName: "bolt.circle.fill")
-                            .foregroundStyle(.white, .gray) // Linha onde a cor do ícone pode ser modificada
+                            .foregroundStyle(.white, .black) // Linha onde a cor do ícone pode ser modificada
                             .font(.system(size: 70))
                         VStack {
                             Text("Coisas que me motivam")
                                 .font(.title)
-                            Text("<insira aqui>") // Modificar essa String
+                            Text("Educação 📚") // Modificar essa String
                                 .font(.system(size: 22, design: .rounded))
                                 .bold()
-                                .foregroundStyle(.gray) // Linha onde a cor do texto pode ser modificada
+                                .foregroundStyle(.white) // Linha onde a cor do texto pode ser modificada
                         }
                     }
                     .padding()
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                    .background(.orange.opacity(0.7)) // Linha onde a cor do card pode ser modificada
                     .clipShape(.rect(cornerRadius: 11))
                 }
                 .multilineTextAlignment(.center)
@@ -155,13 +156,16 @@ struct Template: View {
                     VStack(alignment: .leading) {
                         Text("Nome")
                             .font(.title)
-                        Text("<insira aqui>") // Modificar essa String
+                            .foregroundStyle(.white)
+                            .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
+                        Text("Paulo Henrique") // Modificar essa String
                             .font(.system(size: 28, weight: .bold, design: .monospaced))
                             .italic()
                             .frame(maxWidth: .infinity)
+                            .foregroundStyle(.white)
                     }
                     .padding()
-                    .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                    .background(.black.opacity(0.8)) // Linha onde a cor do card pode ser modificada
                     .clipShape(.rect(cornerRadius: 11))
                     
                     HStack {
@@ -170,55 +174,58 @@ struct Template: View {
                                 Text("Pets")
                                     .font(.title)
                                 
-                                Image(systemName: "dog.fill") // Mude a imagem
+                                Image(systemName: "cat") // Mude a imagem
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
-                                    .frame(height: 200)
+                                    .frame(height: 120)
                                     .background(.black)
                                     .foregroundStyle(.white) // Linha onde a cor do ícone pode ser modificada
                                     .clipShape(.rect(cornerRadius: 12))
-                                    .rotationEffect(.degrees(-15))
+                                    .rotationEffect(.degrees(-5))
                                     .frame(maxWidth: .infinity)
                             }
                             .padding()
-                            .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                            .background(.mint.opacity(0.5)) // Linha onde a cor do card pode ser modificada
                             .clipShape(.rect(cornerRadius: 11))
                             
                             VStack {
                                 Text("Filme/Série predileta")
                                     .font(.title)
                                     .frame(maxWidth: .infinity, alignment: .topLeading)
+                                    .foregroundStyle(.white)
                                 VStack {
-                                    Image(systemName: "popcorn.fill") // Mude a imagem
+                                    Image("black-mirror") // Mude a imagem
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
                                         .frame(height: 100)
                                         .rotationEffect(.degrees(10)) // Linha onde a rotação pode ser mudada
                                         .frame(maxWidth: .infinity)
-                                    Image(systemName: "movieclapper.fill") // Mude a imagem
+                                    Image("harry-potter") // Mude a imagem
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
                                         .frame(height: 100)
-                                        .rotationEffect(.degrees(10)) // Linha onde a rotação pode ser mudada
+                                        .rotationEffect(.degrees(5)) // Linha onde a rotação pode ser mudada
                                         .frame(maxWidth: .infinity)
-                                    Image(systemName: "theatermasks.fill") // Mude a imagem
+                                    Image("cidade-invisivel") // Mude a imagem
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
                                         .frame(height: 100)
-                                        .rotationEffect(.degrees(10)) // Linha onde a rotação pode ser mudada
+                                        .cornerRadius(50)
+                                        .rotationEffect(.degrees(-10)) // Linha onde a rotação pode ser mudada
                                         .frame(maxWidth: .infinity)
                                 }
                                 .frame(maxHeight: .infinity)
                             }
                             .padding()
-                            .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                            .background(.brown.opacity(1)) // Linha onde a cor do card pode ser modificada
                             .clipShape(.rect(cornerRadius: 11))
                             
                             VStack {
                                 Text("Cor predileta")
                                     .font(.title)
-                                Text("<insira aqui>") // Modificar essa String
-                                    .foregroundStyle(.gray)  // Linha onde a cor do texto pode ser modificada
+                                    .foregroundStyle(.white)
+                                Text("Preto") // Modificar essa String
+                                    .foregroundStyle(.white)  // Linha onde a cor do texto pode ser modificada
                                     .font(.system(size: 32, weight: .bold, design: .monospaced))
                                     .italic()
                                     .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -228,47 +235,47 @@ struct Template: View {
                                             .resizable()
                                             .aspectRatio(contentMode: .fit)
                                             .frame(height: 200)
-                                            .opacity(0.25)
-                                            .foregroundStyle(.gray) // Linha onde a cor do ícone pode ser modificada
+                                            
+                                            .foregroundStyle(.black) // Linha onde a cor do ícone pode ser modificada
                                     }
                             }
                             .padding()
                             .frame(maxHeight: 250)
-                            .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                            .background(.gray.opacity(1)) // Linha onde a cor do card pode ser modificada
                             .clipShape(.rect(cornerRadius: 11))
                         }
                         ZStack(alignment: .topLeading) {
                             Text("Hobbies")
                                 .font(.title)
-                            VStack {
-                                Image(systemName: "moonphase.waning.crescent") // Modificar essa Imagem
+                            VStack(spacing: 10) {
+                                Image(systemName: "pencil.and.scribble") // Modificar essa Imagem
                                 Image(systemName: "books.vertical.fill") // Modificar essa Imagem
-                                Image(systemName: "airpodsmax") // Modificar essa Imagem
-                                Image(systemName: "leaf.fill") // Modificar essa Imagem
-                                Image(systemName: "dice.fill") // Modificar essa Imagem
-                                Image(systemName: "cup.and.saucer.fill") // Modificar essa Imagem
-                                Image(systemName: "mug.fill") // Modificar essa Imagem
+                                Image(systemName: "fork.knife.circle") // Modificar essa Imagem
+                                Image(systemName: "movieclapper") // Modificar essa Imagem
+                                Image(systemName: "moon.stars") // Modificar essa Imagem
+                                Image(systemName: "video") // Modificar essa Imagem
+                                Group{
+                                    Text("Escrita") // Modificar essa String
+                                    Text("Leitura") // Modificar essa String
+                                    Text("Cozinhar") // Modificar essa String
+                                    Text("Assistir") // Modificar essa String
+                                    Text("Astronomia") // Modificar essa String
+                                    Text("Produzir conteúdo") // Modificar essa String
+                                }.font(.system(size: 25, design: .monospaced))
+                                    .rotationEffect(.degrees(-5))
+                                
+                                
                             }
-                            .font(.system(size: 100))
-                            .opacity(0.2)
+                            .font(.system(size: 80))
+                            .opacity(0.6)
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            
-                            VStack(alignment: .trailing) {
+                            VStack(alignment: .trailing, spacing: 30) {
                                 // Linhas onde as strings podem ser modificadas
-                                Text("<insira aqui>") // Modificar essa String
-                                Text("<insira aqui>") // Modificar essa String
-                                Text("<insira aqui>") // Modificar essa String
-                                Text("<insira aqui>") // Modificar essa String
-                                Text("<insira aqui>") // Modificar essa String
-                                Text("<insira aqui>") // Modificar essa String
+                                
                             }
-                            .font(.system(size: 26, weight: .bold, design: .monospaced))
-                            .italic()
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .rotationEffect(.degrees(10))
                         }
                         .padding()
-                        .background(.gray.opacity(0.2)) // Linha onde a cor do card pode ser modificada
+                        .background(.purple.opacity(0.6)) // Linha onde a cor do card pode ser modificada
                         .clipShape(.rect(cornerRadius: 11))
                     }
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
